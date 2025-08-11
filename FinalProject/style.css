@@ -1,1 +1,40 @@
-
+header{
+  background-color: grey;
+  text-align: left;
+  padding: 20px;
+}
+body{
+  margin: 0px;
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1{
+  text-align: center;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: grey;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: #363636;
+}
+.navbar li{
+  float: right;
+}
+aside{
+  width: 50%;
+  float: left;
+  font-size: 20px;
+}
