@@ -3,11 +3,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailor And Design</title>
-  <link rel="stylesheet" href="style.css">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css"> 
   
-  <body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<body>
   <header> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img src="https://github.com/eli3nn1y/eli3nn1y.github.io/blob/main/photos/IMG_9544.jpg?raw=true" width="100px" height="100px" alt="Logo" />
@@ -18,25 +18,31 @@
       </ul>
     </nav>
   </header>
-    
+
   <h1> *•~WELCOME TO TAILOR AND DESIGN~•* </h1>
-    
+
   <main class="container">
     <div class="row">
       <p> We make your creative ideas come to life! Check it out here on our website. Feel free to come by in person or contact us for online services. Learn more in our about me tab. </p>
-    </div>
-    
-    <div class="row"> 
-      <div class="col-sm-6">
-        <img src="https://clubllondon.us/cdn/shop/files/WB_HR_CL132343002-SpiralBlackTailoredBlazerMiniDressWithAsymmetricHem6__3-May7_1_44_33_1200x.jpg?v=1715089486" alt="Tailored Blazer Dress" width="280px" height="360px"/>
+    </div> 
+  
+    <div class="slider">
+      <div class="slides">
+        
+        <img class="slide" src="https://clubllondon.us/cdn/shop/files/WB_HR_CL132343002-SpiralBlackTailoredBlazerMiniDressWithAsymmetricHem6__3-May7_1_44_33_1200x.jpg?v=1715089486" alt="Tailored Blazer Dress">
+        
+        <img class="slide" src="https://burst.shopifycdn.com/photos/fashion-model-in-pink.jpg?width=1000&format=pjpg&exif=0&iptc=0" alt="Image 2">
+        
+        <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/spring-trends-2-67ed9f956c4cd.png?crop=1.00xw:0.666xh;0,0.0974xh&resize=640:*" alt="Image 3">
+
+        <img class="slide" src="https://hips.hearstapps.com/hmg-prod/images/return-of-tailoring-3-66dee43997c68.png?crop=1.00xw:0.667xh;0,0.0216xh&resize=1120:*" alt="image 4">
       </div>
       
-      <div class="col-sm-6">  
-      <img src="https://st.depositphotos.com/35641354/57572/i/450/depositphotos_575720690-stock-illustration-sketch-fashion-event-illustration-white.jpg" width="360px" height="360px" />
-        </div>
-      </div>
-    </div>
-  </main>
+      <button class="prev" onclick="prevSlide()">&#10094</button>
+      <button class="next" onclick="nextSlide()">&#10095</button>
     
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
